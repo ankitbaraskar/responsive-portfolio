@@ -215,3 +215,72 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* I put media queries */
+
+@media screen and (max-width: 980px){
+ .main-section{
+  width: 700px;
+  height: auto;
+ }
+ /* .auth-image {
+   width: 125px;
+ } */
+ body{
+   font-size: 0.9rem;
+ }
+ .work{
+   width: 230px;
+   margin: 20px 20px 25px;
+ }
+/*  .work:nth-child(even){
+   margin-right: 0px;
+ }
+ .work:nth-child(3){
+  margin-left: 40px;
+}
+.work:nth-child(5){
+  margin-left: 40px; 
+}*/
+}
+
+@media screen and (max-width: 768px){
+  /* .work:nth-child(5){
+    margin-left: 40px; */
+    .main-section{
+      width: 100%;
+    }
+    .auth-image {
+      width: 300px;
+    }
+    .work{
+      width: 200px;
+      
+    }
+}
+
+@media screen and (max-width: 640px){
+  .auth-image {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .work{
+    width: 100%;
+  }
+  ul{
+    padding-inline-start: 0px;
+  }
+  #logo {
+    width: 100%;
+  }
+  nav{
+    text-align: center;
+    float: none;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  nav a{
+    margin-top: 25px;
+  }
+
+}
